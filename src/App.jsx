@@ -33,7 +33,7 @@ function App() {
     })
       .then((res) => res.json())
       .then((res) => {
-        console.log(res);
+        alert("Added Successfully");
         setTodos([...todos, todo]);
       })
       .catch((err) => console.log(err))
